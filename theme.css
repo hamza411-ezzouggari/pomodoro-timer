@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font-size: 1.8rem;
+}
+
+.fa-play {
+    color: rgb(31, 145, 164);
+}
+
+.fa-play:hover {
+    color: #ACF1F3;
+}
+
+.fa-redo {
+    color: rgb(31, 145, 164);
+}
+
+.fa-redo:hover {
+    color: red;
+}
+
+.fa-chevron-down {
+    color: rgb(31, 145, 164);
+}
+
+.fa-chevron-down:hover {
+    color: #ACF1F3;
+}
+
+.fa-chevron-up {
+    color: rgb(150, 27, 161);
+}
+
+.fa-chevron-up:hover {
+    color: orange;
+}
+
+.button:active {
+    transform: scale(1.5);
+}
+
+.img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Session {
+    display: flex;
+    justify-content: center;
+}
+
+.Break {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 83%;
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    position: absolute;
+    top: 41%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
